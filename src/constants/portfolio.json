@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "image": "assets/portfolio1.jpg",
+        "imageAlt": "Teacher Student",
+        "tittle": "Teacher Student",
+        "description": "SpringBoot project",
+        "github": "https://github.com",
+        "demo": "https://github.com"
+    },
+    {
+        "id": 2,
+        "image": "assets/portfolio2.jpg",
+        "imageAlt": "Master detail",
+        "tittle": "Master detail",
+        "description": "NodeJS project",
+        "github": "https://github.com",
+        "demo": "https://github.com"
+    },
+    {
+        "id": 3,
+        "image": "assets/portfolio3.jpg",
+        "imageAlt": "User Auth",
+        "tittle": "User Auth",
+        "description": "NodeJS project + JWT",
+        "github": "https://github.com",
+        "demo": "https://github.com"
+    }
+]
