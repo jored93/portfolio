@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/full-stack-developer.svg'
 import { BiServer } from 'react-icons/bi'
 import { IoInfinite } from 'react-icons/io5'
 import { CgWebsite } from 'react-icons/cg'
