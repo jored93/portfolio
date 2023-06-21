@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "experience": "Backend development",
+        "skills": [
+            {
+                "skill": "Node.js",
+                "level": "Advanced"
+            },
+            {
+                "skill": "Django",
+                "level": "Advanced"
+            },
+            {
+                "skill": "Typescript",
+                "level": "Experienced"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "experience": "Frontend development",
+        "skills": [
+            {
+                "skill": "React",
+                "level": "Experienced"
+            },
+            {
+                "skill": "HTML",
+                "level": "Experienced"
+            },
+            {
+                "skill": "CSS",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Javascript",
+                "level": "Experienced"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "experience": "Devops culture",
+        "skills": [
+            {
+                "skill": "Jenkins",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Gitlab CI/CD",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Docker",
+                "level": "Experienced"
+            }
+        ]
+    }
+]

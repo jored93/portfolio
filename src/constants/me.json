@@ -1,0 +1,48 @@
+{
+    "name": "Jorman Orrala Lainez",
+    "profile": "Fullstack developer",
+    "image": "/assets/images/me.png",
+    "fullstackImage": "assets/images/full-stack-developer.svg",
+    "cv": "assets/docs/cv.pdf",
+    "socials": [
+        {
+            "id": "1",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jorman-eduardo-orrala-lainez/",
+            "icon": "bi bi-linkedin"
+        },
+        {
+            "id": "2",
+            "name": "Github",
+            "url": "https://github.com/jored93",
+            "icon": "bi bi-github"
+        },
+        {
+            "id": "3",
+            "name": "Instagram",
+            "url": "https://instagram/_jored93",
+            "icon": "bi bi-instagram"
+        }
+    ],
+    "knowledges": [
+        {
+            "id": 1,
+            "name": "Backend",
+            "time": "3+ years",
+            "icon": "bi bi-hdd-rack"
+        },
+        {
+            "id": 2,
+            "name": "Frontend",
+            "time": "1 year",
+            "icon": "bi bi-window-dock"
+        },
+        {
+            "id": 1,
+            "name": "Devops",
+            "time": "3+ years",
+            "icon": "bi bi-infinity"
+        }
+    ],
+    "about": "Experiencia en desarrollo backend Python, Typescript, Auth y RESTful. Experiencia con CI/CD, Docker, arquitecturas de microservicios y cultura devops. Conocimientos en desarrollo frontend en HTML, CSS y frameworks Javascript"
+}
