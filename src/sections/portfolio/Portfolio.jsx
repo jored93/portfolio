@@ -12,7 +12,7 @@ const Portfolio = () => {
         {
           porfolio.map (({id, image, imageAlt, tittle, description, github, demo}) => {
             return (
-              <article className='portfolio__item'>
+              <article className='portfolio__item'  key={`${tittle}-${id}`}>
                 <div className='portfolio__item-image'>
                   <img src={image} alt={imageAlt} />
                 </div>

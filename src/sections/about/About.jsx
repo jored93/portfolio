@@ -20,7 +20,7 @@ const About = () => {
             {
               knowledge.map(({id, name, time, icon}) => {
                 return (
-                  <article className='about__card' key={id}>
+                  <article className='about__card' key={`${name}-${id}`}>
                     <i className={icon} style={{ color: '#4db5ff', fontSize: '1.4rem', marginBottom: '1rem'}}></i>
                     <h5>{name}</h5>
                     <small>{time}</small>

@@ -12,13 +12,13 @@ const Experience = () => {
         {
           experience.map(({experience, skills}) => {
             return (
-              <div key={experience}>
+              <div key={`${experience}-${skills}`}>
                 <h3>{experience}</h3>
                 <div className="experience__content">
                     {
                       skills.map (({id, skill, level}) => {
                         return (
-                          <article className='experience__details' key={id}>
+                          <article className='experience__details' key={`${skill}-${id}`}>
                             <div>
                               <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                               <h4>{skill}</h4>

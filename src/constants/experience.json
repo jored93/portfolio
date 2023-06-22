@@ -11,26 +11,31 @@
         "description": "Realizar el diseño técnico de programas/módulos/modelos/parte de la solución o iniciativa, formales y no formales, de acuerdo a la metodología. Desarrollar programas/módulos/modelos/parte de la solución o iniciativa. Realizar pruebas unitarias y participar en las integradas. Realizar tareas de apoyo a la ejecución y resolución de problemas del proyecto/producto/servicio.",
         "aptitudes": [
             {
+                "id": 1,
                 "aptitud": "AWS",
                 "type": "Cloud Computing",
                 "level": "Experienced"
             },
             {
+                "id": 2,
                 "aptitud": "Typescript",
                 "type": "Backend",
                 "level": "Experienced"
             },
             {
+                "id": 3,
                 "aptitud": "Node.js",
                 "type": "Backend",
                 "level": "Experienced"
             },
             {
+                "id": 4,
                 "aptitud": "Docker",
                 "type": "Devops",
                 "level": "Experienced"
             },
             {
+                "id": 5,
                 "aptitud": "Terraform",
                 "type": "Devops",
                 "level": "Experienced"
@@ -49,21 +54,25 @@
         "description": "Análisis y diseño de módulos en mecanografiado bajo TypeOrm. Creación de microservicios. Pruebas unitarias",
         "aptitudes": [
             {
+                "id": 1,
                 "aptitud": "AWS",
                 "type": "Cloud Computing",
                 "level": "Experienced"
             },
             {
+                "id": 2,
                 "aptitud": "Typescript",
                 "type": "Backend",
                 "level": "Experienced"
             },
             {
+                "id": 3,
                 "aptitud": "Node.js",
                 "type": "Backend",
                 "level": "Experienced"
             },
             {
+                "id": 4,
                 "aptitud": "KeyCloak",
                 "type": "Devops",
                 "level": "Experienced"

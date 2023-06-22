@@ -15,9 +15,9 @@ const Resume = () => {
                     <h3>University</h3>
                     <div className="resume__content">
                         {
-                            education.map (({title, description, register}) => {
+                            education.map (({id, title, description, register}) => {
                                 return (
-                                    <article className='resume__details'>
+                                    <article className='resume__details' key={`${title}-${id}`}>
                                     <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                                     <div>
                                         <h4>{title}</h4>
@@ -34,7 +34,7 @@ const Resume = () => {
                         {
                             courses.map (({id, course, description, institution}) => {
                                 return (
-                                    <article className='resume__details'>
+                                    <article className='resume__details' key={`${course}-${id}`}>
                                     <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                                     <div>
                                         <h4>{course}</h4>
@@ -54,7 +54,7 @@ const Resume = () => {
                         {
                             experience.map (({id, position, company, startDate, endDate, aptitudes, description}) => {
                                 return (
-                                    <article className='resume__details'>
+                                    <article className='resume__details' key={`${position}-${id}`}>
                                         <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                                         <div>
                                             <h4><strong>{position}</strong> - {company}</h4> 
@@ -63,7 +63,9 @@ const Resume = () => {
                                             {
                                                 aptitudes.map (({aptitud}) => {
                                                     return (
-                                                        <small className='text-ligth'>{aptitud} - </small>
+                                                        <div key={aptitud}>
+                                                            <small className='text-ligth'>{aptitud} </small>
+                                                        </div>
                                                     )
                                                 })
                                             }
