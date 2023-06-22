@@ -1,11 +1,11 @@
-import Header from "./components/header/Header";
+import Header from "./sections/header/Header";
 import Nav from "./components/nav/Nav";
-import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
-import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
-import Resume from "./components/resume/Resume";
+import About from "./sections/about/About";
+import Experience from "./sections/experience/Experience";
+import Portfolio from "./sections/portfolio/Portfolio";
+import Contact from "./sections/contact/Contact";
+import Footer from "./sections/footer/Footer";
+import Resume from "./sections/resume/Resume";
 
 function App() {
     return (

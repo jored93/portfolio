@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "course": "Curso de Backend con NestJS",
+        "institution": "Platzi",
+        "description": "some description",
+        "type": "Remote",
+        "ambit": "Backen NodeJs",
+        "certificate": "some link certificate"
+    },
+    {
+        "id": "2",
+        "course": "Curso de NestJS: Programación Modular, Documentación con Swagger y Deploy",
+        "institution": "Platzi",
+        "description": "some description",
+        "type": "Remote",
+        "ambit": "Backen NodeJs",
+        "certificate": "some link certificate"
+    }
+]

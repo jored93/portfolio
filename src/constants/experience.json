@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "position": "Ingeniero junior",
+        "workType": "Jornada completa",
+        "company": "NTT DATA",
+        "ubication": "Ecuador",
+        "ubicationType": "Remoto",
+        "startDate": "Sept 2022",
+        "endDate": "Actualidad",
+        "description": "Realizar el diseño técnico de programas/módulos/modelos/parte de la solución o iniciativa, formales y no formales, de acuerdo a la metodología. Desarrollar programas/módulos/modelos/parte de la solución o iniciativa. Realizar pruebas unitarias y participar en las integradas. Realizar tareas de apoyo a la ejecución y resolución de problemas del proyecto/producto/servicio.",
+        "aptitudes": [
+            {
+                "aptitud": "AWS",
+                "type": "Cloud Computing",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "Typescript",
+                "type": "Backend",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "Node.js",
+                "type": "Backend",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "Docker",
+                "type": "Devops",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "Terraform",
+                "type": "Devops",
+                "level": "Experienced"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "position": "Desarrollador backend",
+        "workType": "Jornada completa",
+        "company": "Business Blockchain",
+        "ubication": "Ecuador",
+        "ubicationType": "Remoto",
+        "startDate": "Jul 2022",
+        "endDate": "Sept 2022",
+        "description": "Análisis y diseño de módulos en mecanografiado bajo TypeOrm. Creación de microservicios. Pruebas unitarias",
+        "aptitudes": [
+            {
+                "aptitud": "AWS",
+                "type": "Cloud Computing",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "Typescript",
+                "type": "Backend",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "Node.js",
+                "type": "Backend",
+                "level": "Experienced"
+            },
+            {
+                "aptitud": "KeyCloak",
+                "type": "Devops",
+                "level": "Experienced"
+            }
+        ]
+    }
+]

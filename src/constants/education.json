@@ -1,0 +1,35 @@
+[
+    {
+        "id": "1",
+        "institution": "Universidad de Guayaquil",
+        "title": "Ingeniero en Sistemas Computacionales",
+        "academicAmbit": "Ingenierias de computación",
+        "startDate": "Apr 2013",
+        "endDate": "Sept 2022",
+        "activities": "Education",
+        "description": "Education",
+        "register": "123456789",
+        "aptitudes": [
+            {
+                "aptitud": "AWS",
+                "tipo": "Cloud Computing",
+                "grado": "Experienced"
+            },
+            {
+                "aptitud": "Typescript",
+                "tipo": "Backend",
+                "grado": "Experienced"
+            },
+            {
+                "aptitud": "Node.js",
+                "tipo": "Backend",
+                "grado": "Experienced"
+            },
+            {
+                "aptitud": "KeyCloak",
+                "tipo": "Devops",
+                "grado": "Experienced"
+            }
+        ]
+    }
+]
