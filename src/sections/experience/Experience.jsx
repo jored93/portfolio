@@ -19,8 +19,8 @@ const Experience = () => {
                       skills.map (({id, skill, level}) => {
                         return (
                           <article className='experience__details' key={`${skill}-${id}`}>
+                            <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                             <div>
-                              <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                               <h4>{skill}</h4>
                               <small className='text-ligth'>{level}</small>
                             </div>

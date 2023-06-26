@@ -6,7 +6,21 @@
         "description": "some description",
         "type": "Remote",
         "ambit": "Backen NodeJs",
-        "certificate": "some link certificate"
+        "certificate": "some link certificate",
+        "knowledges": [
+            {
+                "id":1,
+                "knowledge": "Develop web applications with NestJS."
+            },
+            {
+                "id":2,
+                "knowledge": "Structure and architecture of a backend project."
+            },
+            {
+                "id":3,
+                "knowledge": "Programming controllers, services and custom pipes."
+            }
+        ]
     },
     {
         "id": "2",
@@ -15,6 +29,20 @@
         "description": "some description",
         "type": "Remote",
         "ambit": "Backen NodeJs",
-        "certificate": "some link certificate"
+        "certificate": "some link certificate",
+        "knowledges": [
+            {
+                "id":1,
+                "knowledge": "Develop web applications with NestJS."
+            },
+            {
+                "id":2,
+                "knowledge": "Structure and architecture of a backend project."
+            },
+            {
+                "id":3,
+                "knowledge": "Programming controllers, services and custom pipes."
+            }
+        ]
     }
 ]

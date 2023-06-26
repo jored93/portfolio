@@ -4,6 +4,7 @@
     "image": "/assets/images/me.png",
     "fullstackImage": "assets/images/full-stack-developer.svg",
     "cv": "assets/docs/cv.pdf",
+    "logotype": "assets/logos/logotipo.png",
     "socials": [
         {
             "id": "1",
@@ -20,7 +21,7 @@
         {
             "id": "3",
             "name": "Instagram",
-            "url": "https://instagram/_jored93",
+            "url": "https://www.instagram.com/_jored93/",
             "icon": "bi bi-instagram"
         }
     ],
@@ -44,5 +45,5 @@
             "icon": "bi bi-infinity"
         }
     ],
-    "about": "Experiencia en desarrollo backend Python, Typescript, Auth y RESTful. Experiencia con CI/CD, Docker, arquitecturas de microservicios y cultura devops. Conocimientos en desarrollo frontend en HTML, CSS y frameworks Javascript"
+    "about": "Back-end experience with Python/Django, NodeJS/Typescript, Auth, and RESTful. Front-end knowledge in HTML, CSS and frameworks Javascript. Experience with CI/CD, Docker, microservices architectures, and server monitoring with Grafana. Administration of relational and non-relational databases"
 }

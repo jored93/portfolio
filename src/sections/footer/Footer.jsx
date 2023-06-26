@@ -1,11 +1,13 @@
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import me from '../../constants/me.json'
 import './footer.css'
 
 const Footer = () => {
+  const social = me.socials
   return (
     <footer>
-      <a href="#" className='footer__logo'>Jored93</a>
+      <a href="#" className='footer__logo'><img src={me.logotype} alt="joreddev" /></a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -17,15 +19,15 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://github">
-          <FaGithub />
-        </a>
-        <a href="https://instagram">
-          <FaInstagram />
-        </a>
-        <a href="https://linkedin">
-          <FaLinkedin />
-        </a>
+        {
+          social.map(({id, icon, url, name}) => {
+            return (
+              <a href={url} key={name}>
+                <i className={icon}></i>
+              </a>
+            )
+          })
+        }
       </div>
 
       <div className="footer__copyright">

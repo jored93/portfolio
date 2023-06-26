@@ -38,7 +38,7 @@ const About = () => {
               </React.Fragment>
             ))}
           </p>
-          <a href="#contact" className='btn btm-primary'>Lets talk</a>
+          <a href="#contact" className='btn btm-primary'>Contact me</a>
         </div>
       </div>
     </section>

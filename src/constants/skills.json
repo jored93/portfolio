@@ -56,5 +56,27 @@
                 "level": "Experienced"
             }
         ]
+    },
+    {
+        "id": 3,
+        "experience": "Network administration",
+        "skills": [
+            {
+                "skill": "Design and Architecture",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Network Protocols",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Routing and Switching",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Network observability",
+                "level": "Experienced"
+            }
+        ]
     }
 ]

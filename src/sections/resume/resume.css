@@ -30,6 +30,15 @@
     row-gap: 2rem;
 }
 
+.aptitud {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.details {
+    color: var(--color-primary);
+}
+
 .resume__details {
     display: flex;
     gap: 1rem;

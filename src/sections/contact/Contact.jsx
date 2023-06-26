@@ -2,6 +2,7 @@ import React, {useRef} from 'react'
 import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from 'react-icons/md'
 import { FaInstagram, FaLinkedin } from 'react-icons/fa'
+import me from '../../constants/me.json'
 
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
@@ -9,6 +10,7 @@ import withReactContent from 'sweetalert2-react-content'
 import './contact.css'
 
 const Contact = () => {
+  const social = me.socials
   const MySwal = withReactContent(Swal)
 
   const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID
@@ -56,14 +58,12 @@ const Contact = () => {
             <FaInstagram className='contact__option-icon' />
             <h4>Instagram</h4>
             <h5>_jored93</h5>
-            <a href="mailto:eduardorrala@live.com"> Send a message</a>
           </article>
 
           <article className='contact__option'>
             <FaLinkedin className='contact__option-icon' />
             <h4>LinkedIn</h4>
             <h5>Jorman Orrala Lainez</h5>
-            <a href="mailto:eduardorrala@live.com"> Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

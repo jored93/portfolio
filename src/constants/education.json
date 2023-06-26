@@ -1,14 +1,15 @@
 [
     {
         "id": "1",
-        "institution": "Universidad de Guayaquil",
-        "title": "Ingeniero en Sistemas Computacionales",
-        "academicAmbit": "Ingenierias de computación",
+        "institution": "Guayaquil University",
+        "title": "Computer Systems Engineer",
+        "type": "Grade",
+        "academicAmbit": "Sciences",
         "startDate": "Apr 2013",
         "endDate": "Sept 2022",
         "activities": "Education",
         "description": "Education",
-        "register": "123456789",
+        "register": "1006-2023-2615989",
         "aptitudes": [
             {
                 "id": 1,

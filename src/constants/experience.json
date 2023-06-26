@@ -1,19 +1,34 @@
 [
     {
         "id": 1,
-        "position": "Ingeniero junior",
+        "position": "Junior Engineer",
         "workType": "Jornada completa",
         "company": "NTT DATA",
         "ubication": "Ecuador",
         "ubicationType": "Remoto",
         "startDate": "Sept 2022",
         "endDate": "Actualidad",
-        "description": "Realizar el diseño técnico de programas/módulos/modelos/parte de la solución o iniciativa, formales y no formales, de acuerdo a la metodología. Desarrollar programas/módulos/modelos/parte de la solución o iniciativa. Realizar pruebas unitarias y participar en las integradas. Realizar tareas de apoyo a la ejecución y resolución de problemas del proyecto/producto/servicio.",
+        "description": "",
+        "responsibilities": [
+            {
+                "id":1,
+                "responsibility": "Carry out the technical design of programs/modules/models/part of the solutionor initiative, formal and non-formal, according to the methodology."
+            },
+            {
+                "id":2,
+                "responsibility": "Develop programs/modules/models/part of the solution or initiative."
+            },
+            {
+                "id":2,
+                "responsibility": "Perform unit tests and participate in the integrated ones."
+            }
+        ],
         "aptitudes": [
             {
                 "id": 1,
                 "aptitud": "AWS",
                 "type": "Cloud Computing",
+                "icon": "",
                 "level": "Experienced"
             },
             {
@@ -44,14 +59,28 @@
     },
     {
         "id": 2,
-        "position": "Desarrollador backend",
+        "position": "Backend developer",
         "workType": "Jornada completa",
         "company": "Business Blockchain",
         "ubication": "Ecuador",
         "ubicationType": "Remoto",
         "startDate": "Jul 2022",
         "endDate": "Sept 2022",
-        "description": "Análisis y diseño de módulos en mecanografiado bajo TypeOrm. Creación de microservicios. Pruebas unitarias",
+        "description": "",
+        "responsibilities": [
+            {
+                "id":1,
+                "responsibility": "Analysis and design of modules in typescript under TypeOrm"
+            },
+            {
+                "id":2,
+                "responsibility": "Develop programs/modules/models/part of the solution or initiative."
+            },
+            {
+                "id":2,
+                "responsibility": "Perform unit tests and participate in the integrated ones."
+            }
+        ],
         "aptitudes": [
             {
                 "id": 1,
@@ -74,6 +103,57 @@
             {
                 "id": 4,
                 "aptitud": "KeyCloak",
+                "type": "Devops",
+                "level": "Experienced"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "position": "System Administrator",
+        "workType": "Jornada completa",
+        "company": "CABLE FUTURO EC",
+        "ubication": "Ecuador",
+        "ubicationType": "Remoto",
+        "startDate": "Jul 2022",
+        "endDate": "Sept 2022",
+        "description": "",
+        "responsibilities": [
+            {
+                "id":1,
+                "responsibility": "Planning and administration of metropolitan network oriented to DHCP clients."
+            },
+            {
+                "id":2,
+                "responsibility": "Definition and implementation of intelligent tools and alerts that can quickly discover faults / problems, with the aim of automating the response to non-exceptional service conditions."
+            },
+            {
+                "id":2,
+                "responsibility": "Implementation of visual elements and their behaviors with user interactions."
+            }
+        ],
+        "aptitudes": [
+            {
+                "id": 1,
+                "aptitud": "Network Administration",
+                "type": "Cloud Computing",
+                "level": "Experienced"
+            },
+            {
+                "id": 2,
+                "aptitud": "Linux System Administration",
+                "type": "Backend",
+                "level": "Experienced"
+            },
+            {
+                "id": 3,
+                "aptitud": "Network Operations Center",
+                "type": "Backend",
+                "level": "Experienced"
+            },
+            {
+                "id": 4,
+                "aptitud": "Web Development",
                 "type": "Devops",
                 "level": "Experienced"
             }
