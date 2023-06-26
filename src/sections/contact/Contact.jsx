@@ -1,9 +1,43 @@
-import React from 'react'
+import React, {useRef} from 'react'
+import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from 'react-icons/md'
 import { FaInstagram, FaLinkedin } from 'react-icons/fa'
+
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+
 import './contact.css'
 
 const Contact = () => {
+  const MySwal = withReactContent(Swal)
+
+  const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID
+  const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID
+  const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(`${serviceId}`, `${templateId}`, form.current, `${publicKey}`)
+      .then((result) => {
+          MySwal.fire({
+            title: <strong>`Send ${result}!`</strong>,
+            html: <i>The message was send successfuly!</i>,
+            icon: 'success'
+          })
+      }, (error) => {
+        MySwal.fire({
+          title: <strong>Oops...</strong>,
+          html: <i>Something went wrong!</i>,
+          icon: 'error'
+        })
+      });
+    
+    e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -32,7 +66,7 @@ const Contact = () => {
             <a href="mailto:eduardorrala@live.com"> Send a message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your full name' required />
           <input type="email" name="email" placeholder='Your email' required />
           <textarea name="message" rows="7" placeholder='Your message' required></textarea>
