@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "assets/images/teacher-student.png",
+        "image": "/assets/images/teacher-student.png",
         "imageAlt": "Teacher Student",
         "tittle": "Teacher Student",
         "description": "SpringBoot project: The architecture of Controllers, Entities, Services, and Repository is commonly associated with the Model-View-Controller (MVC) architectural pattern. MVC is a design pattern that separates the concerns of an application into three interconnected components",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "assets/images/user-auth.png",
+        "image": "/assets/images/user-auth.png",
         "imageAlt": "Master detail",
         "tittle": "Master detail",
         "description": "This repository provides a sample implementation of a master-detail project using TypeScript as the programming language, TypeORM as the object-relational mapping (ORM) tool, and CockroachDB as the database.",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "image": "assets/images/user-auth.png",
+        "image": "/assets/images/user-auth.png",
         "imageAlt": "User Auth",
         "tittle": "User Auth",
         "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
