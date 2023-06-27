@@ -1,29 +1,29 @@
 [
     {
         "id": 1,
-        "image": "assets/images/portfolio1.jpg",
+        "image": "assets/images/teacher-student.png",
         "imageAlt": "Teacher Student",
         "tittle": "Teacher Student",
-        "description": "SpringBoot project",
-        "github": "https://github.com",
-        "demo": "https://github.com"
+        "description": "SpringBoot project: The architecture of Controllers, Entities, Services, and Repository is commonly associated with the Model-View-Controller (MVC) architectural pattern. MVC is a design pattern that separates the concerns of an application into three interconnected components",
+        "github": "https://github.com/jored93/master-student",
+        "demo": "https://github.com/jored93/master-student"
     },
     {
         "id": 2,
-        "image": "assets/images/portfolio2.jpg",
+        "image": "assets/images/user-auth.png",
         "imageAlt": "Master detail",
         "tittle": "Master detail",
-        "description": "NodeJS project",
-        "github": "https://github.com",
-        "demo": "https://github.com"
+        "description": "This repository provides a sample implementation of a master-detail project using TypeScript as the programming language, TypeORM as the object-relational mapping (ORM) tool, and CockroachDB as the database.",
+        "github": "https://github.com/jored93/master-detail",
+        "demo": "https://github.com/jored93/master-detail"
     },
     {
         "id": 3,
-        "image": "assets/images/portfolio3.jpg",
+        "image": "assets/images/user-auth.png",
         "imageAlt": "User Auth",
         "tittle": "User Auth",
-        "description": "NodeJS project + JWT",
-        "github": "https://github.com",
-        "demo": "https://github.com"
+        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
+        "github": "https://github.com/jored93/user-auth",
+        "demo": "https://github.com/jored93/user-auth"
     }
 ]

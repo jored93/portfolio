@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "course": "Curso de Backend con NestJS",
+        "course": "Backend course with NestJS",
         "institution": "Platzi",
         "description": "some description",
         "type": "Remote",
@@ -15,16 +15,12 @@
             {
                 "id":2,
                 "knowledge": "Structure and architecture of a backend project."
-            },
-            {
-                "id":3,
-                "knowledge": "Programming controllers, services and custom pipes."
             }
         ]
     },
     {
         "id": "2",
-        "course": "Curso de NestJS: Programación Modular, Documentación con Swagger y Deploy",
+        "course": "NestJS Course: Modular Programming, Documentation with Swagger and Deploy",
         "institution": "Platzi",
         "description": "some description",
         "type": "Remote",
@@ -38,10 +34,63 @@
             {
                 "id":2,
                 "knowledge": "Structure and architecture of a backend project."
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "course": "Jenkins Course",
+        "institution": "Platzi",
+        "description": "some description",
+        "type": "Remote",
+        "ambit": "Backen NodeJs",
+        "certificate": "some link certificate",
+        "knowledges": [
+            {
+                "id":1,
+                "knowledge": "Understand automation services."
             },
             {
-                "id":3,
-                "knowledge": "Programming controllers, services and custom pipes."
+                "id":2,
+                "knowledge": "Install and configure Jenkins on Linux."
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "course": "Docker Course",
+        "institution": "Platzi",
+        "description": "some description",
+        "type": "Remote",
+        "ambit": "Backen NodeJs",
+        "certificate": "some link certificate",
+        "knowledges": [
+            {
+                "id":1,
+                "knowledge": "Know the philosophy of working in Docker."
+            },
+            {
+                "id":2,
+                "knowledge": "Apply Docker best practices."
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "course": "AWS Essentials",
+        "institution": "Udemi",
+        "description": "some description",
+        "type": "Remote",
+        "ambit": "Backen NodeJs",
+        "certificate": "some link certificate",
+        "knowledges": [
+            {
+                "id":1,
+                "knowledge": "Container, lambdas and database management."
+            },
+            {
+                "id":2,
+                "knowledge": "S3 Bucket management"
             }
         ]
     }

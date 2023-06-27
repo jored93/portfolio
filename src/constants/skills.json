@@ -8,12 +8,24 @@
                 "level": "Advanced"
             },
             {
-                "skill": "Django",
+                "skill": "Typescript - TypeORM",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Serverless",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Django - Django Rest Framework",
                 "level": "Advanced"
             },
             {
-                "skill": "Typescript",
+                "skill": "PL/SQL - APEX Development",
                 "level": "Experienced"
+            },
+            {
+                "skill": "SpringBoot",
+                "level": "Basic"
             }
         ]
     },
@@ -36,6 +48,14 @@
             {
                 "skill": "Javascript",
                 "level": "Experienced"
+            },
+            {
+                "skill": "Bootstrap",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Tailwind",
+                "level": "Experienced"
             }
         ]
     },
@@ -53,6 +73,14 @@
             },
             {
                 "skill": "Docker",
+                "level": "Experienced"
+            },
+            {
+                "skill": "Terraform",
+                "level": "Experienced"
+            },
+            {
+                "skill": "AWS",
                 "level": "Experienced"
             }
         ]

@@ -17,9 +17,10 @@ const Portfolio = () => {
                   <img src={image} alt={imageAlt} />
                 </div>
                 <h3>{tittle}</h3>
+                <h6>{description}</h6>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live demo</a>
+                  <a href={github} className='btn' target='_blank' rel='noreferrer'><i class="bi bi-github"></i></a>
+                  {/* <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'><i class="bi bi-globe"></i></a> */}
                 </div>
               </article>
             )

@@ -30,10 +30,10 @@
     row-gap: 2rem;
 }
 
-.aptitud {
+/* .aptitud {
     display: flex;
     gap: 0.5rem;
-}
+} */
 
 .details {
     color: var(--color-primary);

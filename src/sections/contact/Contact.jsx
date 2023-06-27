@@ -57,13 +57,13 @@ const Contact = () => {
           <article className='contact__option'>
             <FaInstagram className='contact__option-icon' />
             <h4>Instagram</h4>
-            <h5>_jored93</h5>
+            <a href={me.socials[2].url}>_jored93</a>
           </article>
 
           <article className='contact__option'>
             <FaLinkedin className='contact__option-icon' />
             <h4>LinkedIn</h4>
-            <h5>Jorman Orrala Lainez</h5>
+            <a href={me.socials[0].url}>Jorman Orrala Lainez</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

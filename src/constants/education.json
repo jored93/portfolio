@@ -13,26 +13,26 @@
         "aptitudes": [
             {
                 "id": 1,
-                "aptitud": "AWS",
-                "tipo": "Cloud Computing",
+                "aptitud": "Django & DRF",
+                "tipo": "Web development",
                 "grado": "Experienced"
             },
             {
                 "id": 2,
-                "aptitud": "Typescript",
-                "tipo": "Backend",
+                "aptitud": "Project Management",
+                "tipo": "Administration",
                 "grado": "Experienced"
             },
             {
                 "id": 3,
-                "aptitud": "Node.js",
-                "tipo": "Backend",
+                "aptitud": "Agile & Waterfall Methodologies",
+                "tipo": "Administration",
                 "grado": "Experienced"
             },
             {
                 "id": 4,
-                "aptitud": "KeyCloak",
-                "tipo": "Devops",
+                "aptitud": "NetworkingAptitudes",
+                "tipo": "Networking",
                 "grado": "Experienced"
             }
         ]
