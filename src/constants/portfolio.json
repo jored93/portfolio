@@ -1,14 +1,5 @@
 [
     {
-        "id": 1,
-        "image": "assets/images/teacher-student.png",
-        "imageAlt": "teacher-student.png",
-        "tittle": "Teacher Student",
-        "description": "SpringBoot project: The architecture of Controllers, Entities, Services, and Repository is commonly associated with the Model-View-Controller (MVC) architectural pattern. MVC is a design pattern that separates the concerns of an application into three interconnected components",
-        "github": "https://github.com/jored93/master-student",
-        "demo": "https://github.com/jored93/master-student"
-    },
-    {
         "id": 2,
         "image": "assets/images/user-auth.png",
         "imageAlt": "user-auth.png",
@@ -19,8 +10,8 @@
     },
     {
         "id": 3,
-        "image": "assets/images/user-auth.png",
-        "imageAlt": "user-auth.png",
+        "image": "assets/images/user-auth2.png",
+        "imageAlt": "user-auth2.png",
         "tittle": "User Auth",
         "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
         "github": "https://github.com/jored93/user-auth",
