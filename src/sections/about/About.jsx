@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import me from '../../constants/me.json'
-import developer from '../../assets/images/full-stack-developer.svg';
+import profile from '../../assets/images/fullstack.jpg';
 
 const About = () => {
   const knowledge = me.knowledges
@@ -13,7 +13,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={developer} alt="About img" />
+            <img src={profile} alt="About img" />
           </div>
         </div>
         <div className='about__content'>
