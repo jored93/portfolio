@@ -22,26 +22,26 @@
         "image": "assets/images/net7.png",
         "imageAlt": "net7.png",
         "tittle": "Product store",
-        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
-        "github": "https://github.com/jored93/user-auth",
-        "demo": "https://github.com/jored93/user-auth"
+        "description": "This is a straightforward API-based CRUD (Create, Read, Update, Delete) application for managing products using .NET 7 and SQLite as the database backend. The API allows clients to interact with the product data by performing basic operations, such as adding new products, retrieving existing ones, updating product details, and deleting products from the database.",
+        "github": "https://github.com/jored93/productStore",
+        "demo": "https://github.com/jored93/productStore"
     },
     {
         "id": 4,
         "image": "assets/images/nest.png",
         "imageAlt": "nest.png",
         "tittle": "Market manage",
-        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
-        "github": "https://github.com/jored93/user-auth",
-        "demo": "https://github.com/jored93/user-auth"
+        "description": "This project is a backend server application developed using Nest TypeScript framework, Modular Programming and Documentation with Swagger to expose services to management markets",
+        "github": "https://github.com/jored93/market-manage",
+        "demo": "https://github.com/jored93/market-manage"
     },
     {
         "id": 5,
         "image": "assets/images/react-tailwind.jpg",
         "imageAlt": "react-tailwind.png",
         "tittle": "Shop website",
-        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
-        "github": "https://github.com/jored93/user-auth",
-        "demo": "https://github.com/jored93/user-auth"
+        "description": "This project is an e-commerce application built using Vite, React, and Tailwind CSS. It aims to provide a fast, efficient, and visually appealing online shopping experience. By leveraging the power of Vite's lightning-fast bundling and React's component-based architecture, combined with the highly customizable styling of Tailwind CSS, this project offers a modern and scalable solution for building e-commerce websites.",
+        "github": "https://github.com/jored93/shop-website",
+        "demo": "https://github.com/jored93/shop-website"
     }
 ]
