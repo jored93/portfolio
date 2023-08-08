@@ -40,10 +40,10 @@
         },
         {
             "id": 1,
-            "name": "Devops",
-            "time": "3+ years",
-            "icon": "bi bi-infinity"
+            "name": "Network administration",
+            "time": "5+ years",
+            "icon": "bi bi-ethernet"
         }
     ],
-    "about": "Back-end experience with Python/Django, NodeJS/Typescript, Auth, and RESTful. Front-end knowledge in HTML, CSS and frameworks Javascript. Experience with CI/CD, Docker, microservices architectures, and server monitoring with Grafana. Administration of relational and non-relational databases"
+    "about": "Back-end experience with Python/Django, NodeJS/Typescript, Auth, and RESTful. Front-end knowledge in HTML, CSS and frameworks Javascript. Experience with CI/CD, Docker, microservices architectures, and server monitoring with Grafana. Administration of relational and non-relational databases. Network Monitoring, management, capacity planning and troubleshooting"
 }

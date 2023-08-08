@@ -1,6 +1,6 @@
 [
     {
-        "id": 2,
+        "id": 1,
         "image": "assets/images/user-auth.png",
         "imageAlt": "user-auth.png",
         "tittle": "Master detail",
@@ -9,10 +9,37 @@
         "demo": "https://github.com/jored93/master-detail"
     },
     {
-        "id": 3,
+        "id": 2,
         "image": "assets/images/user-auth2.png",
         "imageAlt": "user-auth2.png",
         "tittle": "User Auth",
+        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
+        "github": "https://github.com/jored93/user-auth",
+        "demo": "https://github.com/jored93/user-auth"
+    },
+    {
+        "id": 3,
+        "image": "assets/images/net7.png",
+        "imageAlt": "net7.png",
+        "tittle": "Product store",
+        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
+        "github": "https://github.com/jored93/user-auth",
+        "demo": "https://github.com/jored93/user-auth"
+    },
+    {
+        "id": 4,
+        "image": "assets/images/nest.png",
+        "imageAlt": "nest.png",
+        "tittle": "Market manage",
+        "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
+        "github": "https://github.com/jored93/user-auth",
+        "demo": "https://github.com/jored93/user-auth"
+    },
+    {
+        "id": 5,
+        "image": "assets/images/react-tailwind.jpg",
+        "imageAlt": "react-tailwind.png",
+        "tittle": "Shop website",
         "description": "This project is a backend server application developed using Node.js and TypeScript. It provides a robust authentication system using JSON Web Tokens (JWT) for securing the API endpoints. The database management is handled by CockroachDB, a scalable and distributed SQL database.",
         "github": "https://github.com/jored93/user-auth",
         "demo": "https://github.com/jored93/user-auth"
