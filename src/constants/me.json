@@ -30,23 +30,23 @@
             "id": 1,
             "name": "Computer systems engineer ",
             "time": "Guayaquil university",
-            "icon": "bi bi-hdd-rack"
+            "icon": "bi bi-mortarboard"
         },
         {
             "id": 2,
             "name": "Experience in Python, Typescript, Auth and RESTful backend development.",
             "time": "",
-            "icon": "bi bi-window-dock"
+            "icon": "bi bi-code-square"
         },
         {
             "id": 3,
             "name": "Experience with CI/CD, Docker, microservices architectures and devops culture.",
             "time": "",
-            "icon": "bi bi-ethernet"
+            "icon": "bi bi-infinity"
         },
         {
             "id": 4,
-            "name": "Experience with CI/CD, Docker, microservices architectures and devops culture.",
+            "name": "Extensive experience in the design, implementation and maintenance of computer networks and IT systems.",
             "time": "",
             "icon": "bi bi-ethernet"
         }

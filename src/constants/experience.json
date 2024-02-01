@@ -15,11 +15,6 @@
                 "description": "Write code in TypeScript for applications and services on AWS."
             },
             {
-                "id":2,
-                "responsibility": "AWS Cognito Integration.",
-                "description": "Configure and manage AWS Cognito, a user authentication and authorization service."
-            },
-            {
                 "id":3,
                 "responsibility": "Javascript Development on Azure.",
                 "description": "Develop applications in C# and Javascript using Azure SDK and Azure services"
