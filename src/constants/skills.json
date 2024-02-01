@@ -4,28 +4,16 @@
         "experience": "Backend development",
         "skills": [
             {
-                "skill": "Node.js",
-                "level": "Advanced"
-            },
-            {
-                "skill": "Typescript - TypeORM",
+                "skill": "TypeScript - NodeJS",
                 "level": "Experienced"
             },
             {
-                "skill": "Serverless",
+                "skill": "Python - Flask",
                 "level": "Experienced"
-            },
-            {
-                "skill": "Django - Django Rest Framework",
-                "level": "Advanced"
             },
             {
                 "skill": "PL/SQL - APEX Development",
                 "level": "Experienced"
-            },
-            {
-                "skill": ".Net 7",
-                "level": "Basic"
             }
         ]
     },
@@ -44,18 +32,6 @@
             {
                 "skill": "CSS",
                 "level": "Experienced"
-            },
-            {
-                "skill": "Javascript",
-                "level": "Experienced"
-            },
-            {
-                "skill": "Bootstrap",
-                "level": "Experienced"
-            },
-            {
-                "skill": "Tailwind",
-                "level": "Experienced"
             }
         ]
     },
@@ -73,10 +49,6 @@
             },
             {
                 "skill": "Docker",
-                "level": "Experienced"
-            },
-            {
-                "skill": "Terraform",
                 "level": "Experienced"
             },
             {

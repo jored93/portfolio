@@ -5,7 +5,7 @@ import experience from '../../constants/skills.json'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What skills i have</h5>
+      <h5>-</h5>
       <h2>My experience</h2>
 
       <div className="container experience__container">
@@ -22,13 +22,12 @@ const Experience = () => {
                             <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
                             <div>
                               <h4>{skill}</h4>
-                              <small className='text-ligth'>{level}</small>
+                              <small className='text-light'>{level}</small>
                             </div>
                           </article>
                         )
                       })
                     }
-                  
                 </div>
               </div>
             )

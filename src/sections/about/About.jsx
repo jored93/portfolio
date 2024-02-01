@@ -7,9 +7,6 @@ const About = () => {
   const knowledge = me.knowledges
   return (
     <section id='about'>
-      <h5>Get to know</h5>
-      <h2>About me</h2>
-
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -31,15 +28,7 @@ const About = () => {
             }
           </div>
 
-          <p>
-            {me.about.split('.').map((sentence, index) => (
-              <React.Fragment key={index}>
-                {sentence.trim()}
-                <br />
-              </React.Fragment>
-            ))}
-          </p>
-          <a href="#contact" className='btn btm-primary'>Contact me</a>
+          
         </div>
       </div>
     </section>

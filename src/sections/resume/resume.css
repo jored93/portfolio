@@ -1,6 +1,6 @@
 .resume__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
@@ -18,11 +18,11 @@
     cursor: default;
 }
 
-.resume__container > div h3 {
+/* .resume__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
-}
+} */
 
 .resume__content {
     display: grid;

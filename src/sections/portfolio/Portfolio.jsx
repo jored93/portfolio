@@ -5,7 +5,7 @@ import porfolio from '../../constants/portfolio.json'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My recent work</h5>
+      <h5>-</h5>
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
@@ -20,7 +20,7 @@ const Portfolio = () => {
                 <h6>{description}</h6>
                 <div className='portfolio__item-cta'>
                   <a href={github} className='btn' target='_blank' rel='noreferrer'><i className="bi bi-github"></i></a>
-                  {/* <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'><i className="bi bi-globe"></i></a> */}
+                  <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'><i className="bi bi-globe"></i></a>
                 </div>
               </article>
             )

@@ -3,7 +3,7 @@
     "profile": "Fullstack developer",
     "image": "assets/images/me-about.png",
     "fullstackImage": "assets/images/full-stack-developer.svg",
-    "cv": "assets/docs/cv.pdf",
+    "cv": "assets/docs/Orrala_Jorman.pdf",
     "logotype": "assets/logos/logotipo.png",
     "socials": [
         {
@@ -28,22 +28,28 @@
     "knowledges": [
         {
             "id": 1,
-            "name": "Backend",
-            "time": "3+ years",
+            "name": "Computer systems engineer ",
+            "time": "Guayaquil university",
             "icon": "bi bi-hdd-rack"
         },
         {
             "id": 2,
-            "name": "Frontend",
-            "time": "1 year",
+            "name": "Experience in Python, Typescript, Auth and RESTful backend development.",
+            "time": "",
             "icon": "bi bi-window-dock"
         },
         {
-            "id": 1,
-            "name": "Network administration",
-            "time": "5+ years",
+            "id": 3,
+            "name": "Experience with CI/CD, Docker, microservices architectures and devops culture.",
+            "time": "",
+            "icon": "bi bi-ethernet"
+        },
+        {
+            "id": 4,
+            "name": "Experience with CI/CD, Docker, microservices architectures and devops culture.",
+            "time": "",
             "icon": "bi bi-ethernet"
         }
     ],
-    "about": "Back-end experience with Python/Django, NodeJS/Typescript, Auth, and RESTful. Front-end knowledge in HTML, CSS and frameworks Javascript. Experience with CI/CD, Docker, microservices architectures, and server monitoring with Grafana. Administration of relational and non-relational databases. Network Monitoring, management, capacity planning and troubleshooting"
+    "about": ""
 }

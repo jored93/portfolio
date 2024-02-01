@@ -12,12 +12,13 @@
 
 :root {
     /* --color-bg: #1f1f38; */
-    --color-bg: black;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255,0.4);
-    --color-white: #fff;
-    --color-ligth: rgba(255, 255, 255, 0,6);
+    --color-bg: #032030;
+    --color-bg-variant: #395886;
+    --color-primary: #638ECB;
+    --color-primary-variant: #8AAEE0;
+    --color-cyan: #D5DEEF;
+    --color-white: #F0F3FA;
+    --color-light: #B1C9EF;
 
     --transition: all 400ms ease;
 
@@ -66,7 +67,7 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-ligth);
+    color: var(--color-light);
 }
 
 section > h2 {
@@ -74,8 +75,8 @@ section > h2 {
     margin-bottom: 3rem;
 }
 
-text-ligth {
-    color: var(--color-ligth);
+text-light {
+    color: var(--color-light);
 }
 
 a {
