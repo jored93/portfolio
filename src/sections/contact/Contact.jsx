@@ -1,7 +1,7 @@
 import React, {useRef} from 'react'
 import emailjs from 'emailjs-com';
 import { MdOutlineEmail } from 'react-icons/md'
-import { FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
 import me from '../../constants/me.json'
 
 import Swal from 'sweetalert2'
@@ -52,12 +52,6 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>eduardorrala@live.com</h5>
             <a href="mailto:eduardorrala@live.com"> Send a message</a>
-          </article>
-
-          <article className='contact__option'>
-            <FaInstagram className='contact__option-icon' />
-            <h4>Instagram</h4>
-            <a href={me.socials[2].url}>_jored93</a>
           </article>
 
           <article className='contact__option'>

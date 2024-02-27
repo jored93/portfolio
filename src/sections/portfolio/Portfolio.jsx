@@ -20,7 +20,7 @@ const Portfolio = () => {
                 <h6>{description}</h6>
                 <div className='portfolio__item-cta'>
                   <a href={github} className='btn' target='_blank' rel='noreferrer'><i className="bi bi-github"></i></a>
-                  <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'><i className="bi bi-globe"></i></a>
+                  {/* <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'><i className="bi bi-globe"></i></a> */}
                 </div>
               </article>
             )
