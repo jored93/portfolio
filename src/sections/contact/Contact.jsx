@@ -10,7 +10,6 @@ import withReactContent from 'sweetalert2-react-content'
 import './contact.css'
 
 const Contact = () => {
-  const social = me.socials
   const MySwal = withReactContent(Swal)
 
   const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID
