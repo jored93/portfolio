@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.09eace15.css",
-    "main.js": "/portfolio/static/js/main.f7c75fd7.js",
-    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/me.png": "/portfolio/static/media/me.798c4309c6005bfaedad.png",
-    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "static/media/fullstack.jpg": "/portfolio/static/media/fullstack.6e5f4c0f72ab120757ce.jpg",
+    "main.css": "/portfolio/static/css/main.f9d397f9.css",
+    "main.js": "/portfolio/static/js/main.a3a0ab3d.js",
+    "static/media/about.jpg": "/portfolio/static/media/about.ee3e3e70a2772040d1b6.jpg",
+    "static/media/user-auth.png": "/portfolio/static/media/user-auth.9324c3aebaa109e95e86.png",
+    "static/media/tecnoprovsa.png": "/portfolio/static/media/tecnoprovsa.ac707e046b1c5f861c5e.png",
+    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/JormanOrrala.pdf": "/portfolio/static/media/JormanOrrala.5d21f207379f2ba8f84f.pdf",
+    "static/media/nest.png": "/portfolio/static/media/nest.0c34cb68b403444f3d02.png",
     "index.html": "/portfolio/index.html",
-    "main.09eace15.css.map": "/portfolio/static/css/main.09eace15.css.map",
-    "main.f7c75fd7.js.map": "/portfolio/static/js/main.f7c75fd7.js.map"
+    "main.f9d397f9.css.map": "/portfolio/static/css/main.f9d397f9.css.map",
+    "main.a3a0ab3d.js.map": "/portfolio/static/js/main.a3a0ab3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.09eace15.css",
-    "static/js/main.f7c75fd7.js"
+    "static/css/main.f9d397f9.css",
+    "static/js/main.a3a0ab3d.js"
   ]
 }
