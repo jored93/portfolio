@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.519f0a69.css",
+    "main.css": "/portfolio/static/css/main.8a13e0d1.css",
     "main.js": "/portfolio/static/js/main.23119e12.js",
     "static/media/about.jpg": "/portfolio/static/media/about.ee3e3e70a2772040d1b6.jpg",
     "static/media/user-auth.png": "/portfolio/static/media/user-auth.9324c3aebaa109e95e86.png",
@@ -10,11 +10,11 @@
     "static/media/JormanOrrala.pdf": "/portfolio/static/media/JormanOrrala.5d21f207379f2ba8f84f.pdf",
     "static/media/nest.png": "/portfolio/static/media/nest.0c34cb68b403444f3d02.png",
     "index.html": "/portfolio/index.html",
-    "main.519f0a69.css.map": "/portfolio/static/css/main.519f0a69.css.map",
+    "main.8a13e0d1.css.map": "/portfolio/static/css/main.8a13e0d1.css.map",
     "main.23119e12.js.map": "/portfolio/static/js/main.23119e12.js.map"
   },
   "entrypoints": [
-    "static/css/main.519f0a69.css",
+    "static/css/main.8a13e0d1.css",
     "static/js/main.23119e12.js"
   ]
 }
