@@ -43,6 +43,7 @@ export const PROJECTS_DATA = [
     {
         tech: [
             { name: 'Node.js', icon: SiNodedotjs, classNameColor: 'greenLight' },
+            { name: 'TypeOrm', icon: SiTypeorm, classNameColor: 'lightBlue' },
             { name: 'TypeOrm', icon: SiTypeorm, classNameColor: 'lightBlue' }
         ],
         imageAlt: "MASTER_DETAIL.png",

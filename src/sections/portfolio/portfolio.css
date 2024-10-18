@@ -18,8 +18,15 @@
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+
+}
+
+.portfolio__item-tech{
+    height: 50px;
+    width: 50px;
 }
 
 .portfolio__item h3, h6{
@@ -30,6 +37,12 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
 }
 
 /* MEDIA QUERIES - MEDIUM DEVICES */
