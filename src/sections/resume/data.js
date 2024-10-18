@@ -1,6 +1,6 @@
-import NttData from '../../assets/images/fullstack.jpg'
-import Tecnoprovsa from '../../assets/images/fullstack.jpg'
-import CableFuturo from '../../assets/images/fullstack.jpg'
+import NttData from '../../assets/images/nttdata.png'
+import Tecnoprovsa from '../../assets/images/tecnoprovsa.png'
+import CableFuturo from '../../assets/images/cablefuturo.png'
 
 export const WORK_DATA = [
     {

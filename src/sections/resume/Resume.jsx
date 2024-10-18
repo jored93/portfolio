@@ -16,8 +16,7 @@ const Resume = () => {
               WORK_DATA.map(({ business, name, image }) => {
                 return (
                   <article className='about__card' key={`${name}-${business}`}>
-                    {/* <i className={icon} style={{ color: '#4db5ff', fontSize: '1.4rem', marginBottom: '1rem'}}></i> */}
-                    <img src={image} alt="" />
+                    <img src={image} className='resume__image' alt="" />
                     <h5>{name}</h5>
                     <small>{business}</small>
                   </article>

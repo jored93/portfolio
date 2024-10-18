@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import portfolio from '../../constants/portfolio.json'
+import { PROJECTS_DATA } from './data'
 
 const Portfolio = () => {
   return (
@@ -10,7 +11,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          portfolio.map (({id, image, imageAlt, tittle, description, github, demo}) => {
+          PROJECTS_DATA.map (({id, image, imageAlt, tittle, description, github, demo}) => {
             return (
               <article className='portfolio__item'  key={`${tittle}-${id}`}>
                 <div className='portfolio__item-image'>
