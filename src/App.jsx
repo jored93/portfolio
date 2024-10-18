@@ -1,6 +1,5 @@
 import Header from "./sections/header/Header";
 import Nav from "./components/nav/Nav";
-import About from "./sections/about/About";
 import Experience from "./sections/experience/Experience";
 import Portfolio from "./sections/portfolio/Portfolio";
 import Contact from "./sections/contact/Contact";
@@ -12,7 +11,6 @@ function App() {
         <>
             <Header />
             <Nav />
-            <About />
             <Experience />
             <Resume />
             <Portfolio />

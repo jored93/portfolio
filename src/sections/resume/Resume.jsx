@@ -1,45 +1,36 @@
 import React from 'react'
-import courses from '../../constants/courses.json';
-import education from '../../constants/education.json';
-import experience from '../../constants/experience.json';
 import './resume.css'
+import me from '../../constants/me.json'
+import { WORK_DATA } from './data'
 
 const Resume = () => {
-    return (
-        <section id='resume'>
-            <h5>-</h5>
-            <h2>Work experience</h2>
+  const knowledge = me.knowledges
+  return (
+    <section id='resume'>
+      <h5>-</h5>
+      <h2>Experiencia laboral</h2>
+      <div className="container about__container">
+        <div className='about__content'>
+          <div className="about__cards">
+            {
+              WORK_DATA.map(({ business, name, image }) => {
+                return (
+                  <article className='about__card' key={`${name}-${business}`}>
+                    {/* <i className={icon} style={{ color: '#4db5ff', fontSize: '1.4rem', marginBottom: '1rem'}}></i> */}
+                    <img src={image} alt="" />
+                    <h5>{name}</h5>
+                    <small>{business}</small>
+                  </article>
+                )
+              })
+            }
+          </div>
 
-            <div className="container resume__container">
 
-                <div className="resume__backend">
-                    <div className="resume__content">
-                        {
-                            experience.map (({id, position, company, startDate, endDate, aptitudes, responsibilities, description}) => {
-                                return (
-                                    <article className='resume__details' key={`${position}-${id}`}>
-                                        <i className="bi bi-patch-check-fill" style={{ color: '#4db5ff', marginTop: '6px'}}></i>
-                                        <div>
-                                            <h2><strong>{position}</strong> - {company}</h2> 
-                                            <h6>{startDate} - {endDate}</h6>
-                                            {
-                                                responsibilities.map(({id, responsibility})=> {
-                                                    return(
-                                                        <h5 key={`${responsibility}-${id}`}>- {responsibility}</h5>
-                                                    )
-                                                })
-                                            }
-                                        </div>
-                                </article>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-            </div>
-
-        </section>
-    )
+        </div>
+      </div>
+    </section>
+  )
 }
 
 export default Resume

@@ -1,11 +1,12 @@
 import React from 'react'
 import personal from '../../constants/me.json'
+import CV from '../../assets/docs/JormanOrrala.pdf'
 import { BsFiletypePdf, BsTelephone } from "react-icons/bs";
 
 const CTA = () => {
   return (
     <div className='cta'>
-      <a href={personal.cv} download className='btn btn-download'>
+      <a href={CV} download className='btn btn-download'>
         <BsFiletypePdf
           size={20}
         /> Download CV

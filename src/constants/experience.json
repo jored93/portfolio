@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "position": "Engineer",
+        "position": "Cloud Backend",
         "company": "NTT DATA",
         "location": "Ecuador",
         "locationType": "Remote",
@@ -11,17 +11,22 @@
         "responsibilities": [
             {
                 "id":1,
-                "responsibility": "TypeScript Development on AWS.",
+                "responsibility": "Azure",
+                "description": "Write code in TypeScript for applications and services on AWS."
+            },
+            {
+                "id":2,
+                "responsibility": "AWS",
                 "description": "Write code in TypeScript for applications and services on AWS."
             },
             {
                 "id":3,
-                "responsibility": "Javascript Development on Azure.",
+                "responsibility": "Typescript",
                 "description": "Develop applications in C# and Javascript using Azure SDK and Azure services"
             },
             {
                 "id":4,
-                "responsibility": "Collaborative work.",
+                "responsibility": "C#",
                 "description": "Active participation in agile methodology ceremonies."
             }
         ],

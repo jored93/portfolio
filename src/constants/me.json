@@ -1,6 +1,6 @@
 {
     "name": "Jorman Orrala Lainez",
-    "profile": "Fullstack developer",
+    "profile": "Backend & Cloud developer",
     "image": "assets/images/me-about.png",
     "fullstackImage": "assets/images/full-stack-developer.svg",
     "cv": "assets/docs/Orrala_Jorman.pdf",
@@ -43,12 +43,6 @@
             "name": "Experience with CI/CD, Docker, microservices architectures and devops culture.",
             "time": "",
             "icon": "bi bi-infinity"
-        },
-        {
-            "id": 4,
-            "name": "Extensive experience in the design, implementation and maintenance of computer networks and IT systems.",
-            "time": "",
-            "icon": "bi bi-ethernet"
         }
     ],
     "about": ""
