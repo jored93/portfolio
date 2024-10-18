@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React, { useState } from 'react'
 import { MdOutlineEmail } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'
 import { SiWhatsapp } from "react-icons/si";
@@ -7,6 +7,33 @@ import me from '../../constants/me.json'
 import './contact.css'
 
 const Contact = () => {
+  const [form, setForm] = useState({
+    name: '',
+    subject: '',
+  })
+
+  const handleClick = (e) => {
+    e.preventDefault()
+
+    if (form) {
+      const phoneNumber = '593968392972'
+      const message = `Hola, Mi nombre es ${form.name}.\nMe encantaría preguntarle sobre ${
+        form.subject
+      }. Gracias!`
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+        message
+      )}`
+      window.open(url, '_blank')
+    }
+  }
+
+  const onChangeForm = (
+    event
+  ) => {
+    const { id, value } = event.target
+    setForm({ ...form, [id]: value })
+  }
+
   return (
     <section id='contact'>
       <h5>-</h5>
@@ -28,12 +55,29 @@ const Contact = () => {
           </article>
         </div>
         <form>
-          <input type="text" name="name" placeholder='Tu nombre' required />
-          <input type="email" name="email" placeholder='Tu email' required />
-          <textarea name="message" rows="7" placeholder='Tu mensaje' required></textarea>
-          <button type='submit' className='btn btn-whatsapp'>
+          <input 
+            type="text"
+            id='name'
+            name="name"
+            placeholder='Tu nombre'
+            value={form?.name}
+            onChange={onChangeForm}
+            required />
+          <textarea
+            id='subject'
+            name="subject"
+            rows="7"
+            placeholder='Tu mensaje'
+            value={form?.subject}
+            onChange={onChangeForm}
+            required></textarea>
+          <button
+            type='submit'
+            className='btn btn-whatsapp'
+            onClick={handleClick}
+          >
             Chatear {" "} <SiWhatsapp />
-            </button>
+          </button>
         </form>
       </div>
     </section>

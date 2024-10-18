@@ -5,6 +5,7 @@ import Portfolio from "./sections/portfolio/Portfolio";
 import Contact from "./sections/contact/Contact";
 import Footer from "./sections/footer/Footer";
 import Resume from "./sections/resume/Resume";
+import Qualification from './sections/qualification/Qualification'
 
 function App() {
     return (
@@ -12,7 +13,8 @@ function App() {
             <Header />
             <Nav />
             <Experience />
-            <Resume />
+            {/* <Resume /> */}
+            <Qualification />
             <Portfolio />
             <Contact />
             <Footer />
