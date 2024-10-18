@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
 import { MdOutlineEmail } from 'react-icons/md'
 import { FaLinkedin } from 'react-icons/fa'
+import { SiWhatsapp } from "react-icons/si";
 import me from '../../constants/me.json'
 
 import './contact.css'
@@ -27,10 +28,12 @@ const Contact = () => {
           </article>
         </div>
         <form>
-          <input type="text" name="name" placeholder='Your full name' required />
-          <input type="email" name="email" placeholder='Your email' required />
-          <textarea name="message" rows="7" placeholder='Your message' required></textarea>
-          <button type='submit' className='btn btn-primary'>Ir a whatsapp</button>
+          <input type="text" name="name" placeholder='Tu nombre' required />
+          <input type="email" name="email" placeholder='Tu email' required />
+          <textarea name="message" rows="7" placeholder='Tu mensaje' required></textarea>
+          <button type='submit' className='btn btn-whatsapp'>
+            Chatear {" "} <SiWhatsapp />
+            </button>
         </form>
       </div>
     </section>
